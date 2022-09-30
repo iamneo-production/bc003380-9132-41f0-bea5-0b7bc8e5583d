@@ -1,7 +1,6 @@
 package com.examly.springapp.model;
 
-public class LoginModel 
-{
+public class LoginModel {
 	private String email;
 	private String password;
 	
@@ -14,11 +13,18 @@ public class LoginModel
 	public String getPassword() {
 		return password;
 	}
+
+	public LoginModel(String email, String password) {
+		super();
+		this.email = email;
+		this.password = password;
+	} 
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
 	@Override
-	public String toString() {
+	public String toString() { 
 		return "Authentication [email=" + email + ", password=" + password + "]";
-	}
-}
+	} 
+} 

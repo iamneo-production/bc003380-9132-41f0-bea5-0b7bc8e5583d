@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.abacus.model.InstituteModel;
-import com.abacus.service.InstituteService;
+import com.examly.springapp.model.InstituteModel;
+import com.examly.springapp.service.InstituteService;
 
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class InstituteController {
 	@Autowired
 	private InstituteService instituteService;

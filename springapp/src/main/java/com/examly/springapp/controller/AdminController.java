@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.abacus.model.CourseModel;
-import com.abacus.model.InstituteModel;
-import com.abacus.model.StudentModel;
-import com.abacus.service.CourseService;
-import com.abacus.service.InstituteService;
-import com.abacus.service.StudentService;
+import com.examly.springapp.model.CourseModel;
+import com.examly.springapp.model.InstituteModel;
+import com.examly.springapp.model.StudentModel;
+import com.examly.springapp.service.CourseService;
+import com.examly.springapp.service.InstituteService;
+import com.examly.springapp.service.StudentService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 public class AdminController 
 {

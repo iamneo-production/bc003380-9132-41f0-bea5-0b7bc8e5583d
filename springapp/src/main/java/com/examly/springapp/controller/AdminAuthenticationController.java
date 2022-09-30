@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.abacus.model.AdminModel;
-import com.abacus.model.LoginModel;
-import com.abacus.service.AdminService;
+import com.examly.springapp.model.AdminModel;
+import com.examly.springapp.model.LoginModel;
+import com.examly.springapp.service.AdminService;
 
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 public class AdminAuthenticationController 
 {
