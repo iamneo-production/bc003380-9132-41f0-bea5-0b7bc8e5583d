@@ -1,5 +1,5 @@
 import axios from 'axios';
-const USER_API_BASE_URL = "http://localhost:8080/course"
+const USER_API_BASE_URL = "https://8080-affcebcbafebbafffcbcfcaeccfaecbcfbbaf.examlyiopb.examly.io/course"
 
 class CourseService
 {
