@@ -5,7 +5,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 //import org.junit.Test;
-import org.junit.jupiter.api.Test; 
+/*import org.junit.jupiter.api.Test; 
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -15,14 +15,18 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.annotation.Transactional;*/
 
 @SpringBootTest
-@AutoConfigureMockMvc
-@RunWith(SpringRunner.class)
+//@AutoConfigureMockMvc
+//@RunWith(SpringRunner.class)
 class SpringappApplicationTests {
+	@Test
+	void contextLoads() {
+	}
 
-	@Autowired
+
+	/*@Autowired
     private MockMvc mockMvc;
 	
 	@Test
@@ -71,5 +75,5 @@ class SpringappApplicationTests {
 		.accept(MediaType.APPLICATION_JSON))
 		.andExpect(status().isOk())
 		.andReturn();
-    }
+    }*/
 }
